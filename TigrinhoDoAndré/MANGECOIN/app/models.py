@@ -19,7 +19,7 @@ class Token(models.Model):
     criacao = models.DateField()
     insercao = models.DateField()
     desc = models.CharField(max_length=255)
-    valor = models.DecimalField()
+    valor = models.DecimalField(max_digits=10, decimal_places=2)
 
     def __str__(self):
         return self.nome
