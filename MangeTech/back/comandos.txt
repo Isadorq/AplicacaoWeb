@@ -1,0 +1,19 @@
+1. py -m venv venv 
+
+2. .\venv\Scripts\activate
+
+3. pip install django djangorestframework djoser django-cors-headers pillow whitenoise django-mysql django-filter    
+
+4. Collecting django
+
+5. django-admin startproject mangetech .
+
+6. django-admin startapp app
+
+7. python -m pip freeze > requirements.txt
+
+8. py .\manage.py makemigrations
+
+9. py .\manage.py migrate 
+
+10.  py .\manage.py runserver 8080
